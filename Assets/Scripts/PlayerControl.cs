@@ -17,6 +17,8 @@ public class PlayerControl : MonoBehaviour
         //Llamamos el vector3 para movernos en los ejes X Y Z
         Vector3 direccion = new Vector3(movientoHorizontal, 0.0f, movientoVertical);
 
+
+        // nos desplazamos en el mundo multiplicado por la escala de tiempo
         transform.Translate(direccion * velocidad * Time.deltaTime);
     }
 }
