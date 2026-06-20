@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/PausaScene.unity
-    guid: c7b0c580d98e34dd7ab6dd8fca912614
+    path: Assets/Scenes/Splash.unity
+    guid: 801ba8170610d4d8cb5e1a4acb7a7e38
   - enabled: 1
-    path: Assets/Scenes/ScenaPlayer3dBasic.unity
+    path: Assets/Scenes/Menu.unity
+    guid: e5137fc91f47b431b86827f57f628cd6
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: 1fab8e4d159e949f9bbcdf79f275e873
+  - enabled: 1
+    path: Assets/Scenes/EscenaJuego.unity
     guid: f13fc49cfad6c4a0b90eda7d4b948fc5
   m_configObjects: {}
