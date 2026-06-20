@@ -5,27 +5,32 @@ using UnityEngine;
 public class Pause : MonoBehaviour
 {
 
-    private bool estaPausado = false;
+    public bool estaPausado = false;
+    public GameObject canvasPausa;
 
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (estaPausado) ResumeGame();
-            else PauseGame();
+            if (estaPausado) ContinuarJuego();
+            else JuegoPausado();
         }
     }
 
-    public void PauseGame()
+    public void JuegoPausado()
     {
         estaPausado = true;
         Time.timeScale = 0f;
+
+        if (canvasPausa != null) canvasPausa.SetActive(true);
     }
 
-    public void ResumeGame()
+    public void ContinuarJuego()
     {
         estaPausado = false;
         Time.timeScale = 1f;
+
+        if (canvasPausa != null) canvasPausa.SetActive(false);
     }
 }

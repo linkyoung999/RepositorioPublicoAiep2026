@@ -5,7 +5,7 @@ using UnityEngine;
 public class RotacionInfinito : MonoBehaviour
 {
 
-    [Header ("Ajuste de Rotacion")]
+    //[Header ("Ajuste de Rotacion")]
     public float velocidad = 50f;
     public bool rotarX;
     public bool rotarY;
@@ -21,10 +21,7 @@ public class RotacionInfinito : MonoBehaviour
         if (direction != Vector3.zero)
         {
             transform.Rotate(direction * (velocidad * Time.deltaTime));
-
-
         }
-
     }
 
     private void OnValidate()
