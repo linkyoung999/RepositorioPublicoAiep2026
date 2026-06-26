@@ -17,4 +17,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EscenaJuego.unity
     guid: f13fc49cfad6c4a0b90eda7d4b948fc5
+  - enabled: 0
+    path: Assets/Scenes/ScenasModuloManana/SplashManana.unity
+    guid: 6440d813731cc4a4aa2442e0a3eec170
+  - enabled: 0
+    path: Assets/Scenes/ScenasModuloManana/MenuManana.unity
+    guid: f74e965c0d10a449e8c75f8653b90cbe
+  - enabled: 0
+    path: Assets/Scenes/ScenasModuloManana/IntroManana.unity
+    guid: d3ebb5706a58e4ca6a2680f95db555b9
+  - enabled: 0
+    path: Assets/Scenes/ScenasModuloManana/EscenaJuegoManana.unity
+    guid: 611a46e9a63d545d4884e9728487cd9d
   m_configObjects: {}
